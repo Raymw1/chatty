@@ -7,6 +7,8 @@ document.querySelector('#start_chat').addEventListener('click', (event) => {
 
   const chat_help = document.getElementById('chat_help');
   chat_help.style.display = 'none';
+  const btn_support = document.getElementById('btn_support');
+  btn_support.style.display = 'none';
 
   const chat_in_support = document.getElementById('chat_in_support');
   chat_in_support.style.display = 'block';
